@@ -1,0 +1,196 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>M. Aditia Putra Pratama | Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">ADTX <span><</span>/<span>></span></div>
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero reveal">
+  <h1>Hi, I'm <span>Aditia Pratama :)</span></h1>
+  <p>I'm first-year Computer Science student at Sriwijaya University.</p>
+  <div class="hero-btns">
+    <button onclick="scrollToSection('projects')">View My Projects</button>
+    <button class="secondary" onclick="scrollToSection('contact')">Get In Touch</button>
+  </div>
+</section>
+
+<section id="about" class="section alt reveal">
+  <h2>About Me</h2>
+  <p>I am a passionate developer focused on building modern UI, solving problems, and creating impactful digital products.</p>
+</section>
+
+<section id="education" class="section reveal">
+  <h2>Education</h2>
+  <div class="timeline">
+    <div class="edu-card">
+      <img src="https://upload.wikimedia.org/wikipedia/id/thumb/b/bc/Logo_Universitas_Sriwijaya.svg/1280px-Logo_Universitas_Sriwijaya.svg.png?_=20240818010951" class="edu-logo"/>
+      <div>
+        <h3>Universitas Sriwijaya</h3>
+        <p>Informatics Engineering</p>
+        <span>2025 - now</span>
+      </div>
+    </div>
+
+    <div class="edu-card">
+      <img src="https://kemendikdasmen.go.id/web/image/res.company/1/favicon/unique_id" class="edu-logo" /> 
+      <!-- sekolaa ku sekolah miskin gak ada logo nya di google -->
+      <div>
+        <h3>SMAN 1 Jejawi</h3>
+        <p>Mathematics and Science Major</p>
+        <span>2022 - 2025</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section alt reveal">
+  <h2>Skills & Expertise</h2>
+
+  <!-- WEB DEV -->
+  <h3 class="sub">Web Development</h3>
+  <p class="desc">Building responsive UI and interactive web interfaces</p>
+
+  <div class="skill">
+    <p>HTML</p>
+    <small>Semantic structure, accessibility basics</small>
+    <div class="bar"><div data-width="80%"></div></div>
+  </div>
+
+  <div class="skill">
+    <p>CSS</p>
+    <small>Layouting, responsive design, modern UI</small>
+    <div class="bar"><div data-width="75%"></div></div>
+  </div>
+
+  <div class="skill">
+    <p>JavaScript</p>
+    <small>DOM manipulation, interactivity, basic logic</small>
+    <div class="bar"><div data-width="70%"></div></div>
+  </div>
+
+  <!-- CP -->
+  <h3 class="sub">Competitive Programming</h3>
+  <p class="desc">Experienced in solving algorithmic problems and contests</p>
+
+  <div class="skill">
+    <p>Binary Search</p>
+    <small>Efficient searching & optimization problems</small>
+    <div class="bar"><div data-width="90%"></div></div>
+  </div>
+
+  <div class="skill">
+    <p>Dynamic Programming</p>
+    <small>State optimization & problem decomposition</small>
+    <div class="bar"><div data-width="75%"></div></div>
+  </div>
+
+  <div class="skill">
+    <p>Greedy</p>
+    <small>Optimal local decision strategies</small>
+    <div class="bar"><div data-width="80%"></div></div>
+  </div>
+
+  <div class="skill">
+    <p>Graph & Tree</p>
+    <small>Traversal, shortest path, tree structures</small>
+    <div class="bar"><div data-width="68%"></div></div>
+  </div>
+
+  <!-- LANGUAGES -->
+  <h3 class="sub">Programming Languages</h3>
+
+  <div class="skill">
+    <p>C++</p>
+    <small>Main language for competitive programming</small>
+    <div class="bar"><div data-width="75%"></div></div>
+  </div>
+
+  <div class="skill">
+    <p>Java</p>
+    <small>OOP-based programming & basic applications</small>
+    <div class="bar"><div data-width="70%"></div></div>
+  </div>
+
+  <div class="skill">
+    <p>Python</p>
+    <small>Scripting & problem solving</small>
+    <div class="bar"><div data-width="45%"></div></div>
+  </div>
+
+  <!-- CONCEPTS -->
+  <h3 class="sub">Computer Science Concepts</h3>
+
+  <div class="skill">
+    <p>Object-Oriented Programming</p>
+    <small>Encapsulation, inheritance, abstraction</small>
+    <div class="bar"><div data-width="75%"></div></div>
+  </div>
+</section>
+
+<section id="projects" class="section reveal">
+  <h2>Projects</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>Task Manager App</h3>
+      <p>Manage daily tasks with clean UI and local storage.</p>
+      <button>View Project</button>
+    </div>
+
+    <div class="card">
+      <h3>Portfolio Website</h3>
+      <p>Responsive portfolio with modern UI & animation.</p>
+      <button>View Project</button>
+    </div>
+
+    <div class="card">
+      <h3>E-commerce UI</h3>
+      <p>Modern UI design for online shopping experience.</p>
+      <button>View Project</button>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="section alt reveal">
+  <h2>Get In Touch (Demo)</h2>
+  <form id="contactForm">
+    <input type="text" placeholder="Name" required />
+    <input type="email" placeholder="Email" required />
+    <textarea placeholder="Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="socials">
+    <a href="#">GH</a>
+    <a href="#">IN</a>
+    <a href="#">IG</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 M. Aditia Putra Pratama</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
