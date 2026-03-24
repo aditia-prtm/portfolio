@@ -262,6 +262,10 @@ button.secondary {
   background: #3b82f6;
 }
 
+.socials img{
+    height: 30px;
+}
+
 
 /* ===== FORM ===== */
 form {
