@@ -191,6 +191,13 @@ button.secondary {
   border-radius: 20px;
 
   background: #111827;
+
+  transition: 300ms;
+}
+
+.edu-card:hover{  
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
 }
 
 .edu-logo {
@@ -238,6 +245,42 @@ button.secondary {
   color: #94a3b8;
   margin-bottom: 15px;
 }
+
+.cp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.cp-card {
+  padding: 25px;
+  border-radius: 20px;
+  background: #111827;
+  transition: 0.3s;
+}
+
+.cp-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.cp-card h4 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #e2e8f0;
+}
+
+.cp-card ul{
+  margin-inline-start: 15px;
+}
+
+.cp-card ul li {
+  font-size: 0.95rem;
+  color: #94a3b8;
+  line-height: 1.6;
+}
+
 
 
 /* ===== SOCIAL ===== */
