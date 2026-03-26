@@ -1,6 +1,12 @@
+function scrollToSection(id){
+  document.getElementById(id).scrollIntoView({
+    behavior:'smooth'
+  });
+} 
 
-function scrollToSection(id){document.getElementById(id).scrollIntoView({behavior:'smooth'});} 
-function toggleMenu(){document.querySelector('.navbar nav').classList.toggle('active');}
+function toggleMenu(){
+  document.querySelector('.navbar nav').classList.toggle('active');
+}
 
 // SCROLL REVEAL + SKILL ANIMATION
 const reveals = document.querySelectorAll('.reveal');
