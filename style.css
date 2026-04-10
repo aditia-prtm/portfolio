@@ -173,10 +173,24 @@ button.secondary {
 
 
 /* ===== ABOUT ME ====*/
-.about-me-desc{
+.desc-container{
   display: flex;
   flex-direction: column;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.desc-card {
+  display: flex;
+  align-items: center;
   gap: 20px;
+
+  padding: 25px;
+  border-radius: 20px;
+
+  background: #111827;
+
+  transition: 300ms;
 }
 
 /* ===== EDUCATION ===== */
