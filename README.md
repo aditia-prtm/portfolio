@@ -19,9 +19,9 @@ This portfolio is built to:
 Then open "index.html" in your browser.
 
 ## 📁 Project Structure
-├── index.html
-├── style.css
-├── script.js
+├── index.html<br>
+├── style.css<br>
+├── script.js<br>
 └── assets/
 
 ## 🤝 Contributing
