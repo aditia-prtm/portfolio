@@ -16,13 +16,6 @@ This portfolio is built to:
 - Simple and clean UI
 - Basic interactivity with JavaScript
 
-## 🛠️ Getting Started
-
-To run this project locally:
-
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-
 Then open "index.html" in your browser.
 
 ## 📁 Project Structure
