@@ -30,7 +30,7 @@ This is a personal project, but suggestions or feedback are always welcome.
 
 ## 📫 Contact
 
-- Instagram: https://www.instagram.com/adtxprtm_
+- Instagram: https://www.instagram.com/adtxprtm_ <br>
 
 ---
 
