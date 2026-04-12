@@ -8,7 +8,7 @@ It is a simple project where I showcase my work, skills, and progress as I conti
 This portfolio is built to:
 - Present my projects in one place
 - Track my learning journey
-- Practice web development skills
+- Practice front-end web development basic skills
 
 ## 📂 Features
 - Responsive design
