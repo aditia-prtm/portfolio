@@ -1,6 +1,6 @@
-# 🌐 Personal Portfolio
+# 🌐 First Portfolio
 
-This repository contains my personal portfolio website.
+This repository contains my first personal portfolio website.
 It is a simple project where I showcase my work, skills, and progress as I continue learning.
 
 ## 📌 Overview
