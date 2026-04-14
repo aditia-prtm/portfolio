@@ -39,10 +39,9 @@ window.addEventListener('scroll', () => {
   });
 });
 
-// trigger awal biar langsung ke-check
 window.dispatchEvent(new Event('scroll'));
 
 document.getElementById('contactForm').addEventListener('submit', function (e) {
   e.preventDefault();
-  alert('Message sent!');
+  alert('(Demo) Message sent!');
 });

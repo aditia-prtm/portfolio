@@ -43,12 +43,15 @@
   </div> -->
   <div class="desc-container">
     <div class="desc-card">
-          <p>I am an Informatics Engineering student with a deep interest in problem-solving. My journey in technology started in 2023 through competitive programming, 
-           where I learned to tackle logical challenges in various national-level competitions and online contest. These experiences shaped the way I think about efficiency and structured code.</p>
-    </div>
-    <div class="desc-card">
-          <p>Currently, I am exploring a new path in Front-end Web Development. I am focused on learning the fundamentals of building functional and clean user interfaces.
-          For me, web development is an exciting way to apply my algorithmic background to create something visual and useful for others.</p>
+          <p>
+            I am an Informatics Engineering student with a deep interest in Web Developer.
+          </p>
+      </div>
+        
+      <div class="desc-card">
+          <p>
+            Currently, I am exploring a new path in Front-end Web Development. I am focused on learning the fundamentals of building functional and clean user interfaces.
+          </p>
     </div>
   </div>
 </section>
@@ -58,21 +61,36 @@
   <div class="timeline">
     <div class="edu-card">
       <img src="assets/education/univ-logo.png" alt="UNSRI" class="edu-logo"/>
-      <div>
+      <div class="univ">
         <h3>Universitas Sriwijaya</h3>
-        <p>Informatics Engineering</p>
-        <p>2025 - now</p>
-        <p>GPA: 4.00/4.00</p>
+        <ul>
+          <li>
+            <p>Informatics Engineering</p>
+          </li>
+          <li>
+            <p>2025 - now</p>
+          </li>
+          <li>
+            <p>GPA: 4.00/4.00</p>
+          </li>
+        </ul>
       </div>
     </div>
 
     <div class="edu-card">
       <img src="assets/education/highSchool-logo.png" alt="SMA" class="edu-logo" /> 
       <!-- sekolah ku sekolah miskin gak ada logo nya di google -->
-      <div>
+      <div class="highSchool">
         <h3>SMAN 1 Jejawi</h3>
-        <p>Mathematics and Science</p>
-        <p>2022 - 2025</p>
+        <ul>
+          <li>
+            <p>Mathematics and Science</p>
+          </li>
+
+          <li>
+            <p>2022 - 2025</p>
+          </li>
+        </ul>
       </div>
     </div>
 
@@ -82,48 +100,11 @@
 <section id="skills" class="section alt reveal">
   <h2>Skills & Expertise</h2>
   
-  <!-- CP -->
-  <h3 class="sub">Competitive Programming</h3>
-  <p class="desc">
-  Strong foundation in algorithms and data structures with experience at National Olympiad in Informatics (OSN)
-  </p>
-
-  <div class="cp-grid">
-
-    <div class="cp-card">
-      <h4>Problem Solving</h4>
-      <ul>
-        <li>Greedy Algorithms</li>
-        <li>Dynamic Programming</li>
-        <li>Binary Search</li>
-        <li>Divide and Conquer</li>
-      </ul>
-    </div>
-
-    <div class="cp-card">
-      <h4>Algorithms</h4>
-      <ul>
-        <li>Sorting and Searching</li>
-        <li>Graph Algorithms (BFS, DFS, Shortest Path)</li>
-        <li>Tree Algorithms</li>
-      </ul>
-    </div>
-
-    <div class="cp-card">
-      <h4>Data Structures</h4>
-        <ul>
-          <li>Graph and Tree</li>
-          <li>Priority Queue (Heap)</li>
-          <li>Advanced Structure (Fenwick Tree, Segment Tree)</li>
-      </ul>
-    </div>
-
-  </div>
   
   <!-- WEB DEV -->
   <h3 class="sub">Front-End Web Development</h3>
   <p class="desc">Focused on building responsive and interactive web interfaces using HTML, CSS, and JavaScript, with continuous improvement through hands-on projects.</p>
-
+  
   <div class="skill">
     <p>HTML</p>
     <small>Semantic structure, accessibility basics</small>
@@ -157,7 +138,7 @@
     <small>OOP-based programming & basic applications</small>
     <div class="bar"><div data-width="70%"></div></div>
   </div>
-
+  
   <div class="skill">
     <p>Python</p>
     <small>Scripting & problem solving</small>
@@ -166,25 +147,63 @@
 
   <!-- CONCEPTS -->
   <h3 class="sub">Computer Science Concepts</h3>
-
+  
   <div class="skill">
     <p>Object-Oriented Programming</p>
     <small>Encapsulation, inheritance, abstraction</small>
     <div class="bar"><div data-width="75%"></div></div>
   </div>
+
+  <!-- CP -->
+  <h3 class="sub">Competitive Programming</h3>
+  <p class="desc">
+    Strong foundation in algorithms and data structures with experience at National Olympiad in Informatics (OSN)
+  </p>
+
+  <div class="cp-grid">
+
+    <div class="cp-card">
+      <h4>Problem Solving</h4>
+      <ul>
+        <li>Greedy Algorithms</li>
+        <li>Dynamic Programming</li>
+        <li>Binary Search</li>
+        <li>Divide and Conquer</li>
+      </ul>
+    </div>
+
+    <div class="cp-card">
+      <h4>Algorithms</h4>
+      <ul>
+        <li>Sorting and Searching</li>
+        <li>Graph Algorithms (BFS, DFS, Shortest Path)</li>
+        <li>Tree Algorithms</li>
+      </ul>
+    </div>
+
+    <div class="cp-card">
+      <h4>Data Structures</h4>
+        <ul>
+          <li>Graph and Tree</li>
+          <li>Priority Queue (Heap)</li>
+          <li>Advanced Structure (Fenwick Tree, Segment Tree)</li>
+      </ul>
+    </div>
+
+  </div>
 </section>
 
 <section id="projects" class="section reveal">
-  <h2>Projects (soon) </h2>
+  <h2>Projects</h2>
   <div class="grid">
 
-    <!-- <div class="card">
-      <h3>MBG Calculator</h3>
-      <p>Manage daily tasks with clean UI and local storage.</p>
-      <button>View Project</button>
+    <div class="card">
+      <h3>Tic-Tac-Toe</h3>
+      <p>Play against an “AI” whose moves are based on random numbers (Randomized Logic).</p>
+      <button onclick="window.location.href='https://aditia-prtm.github.io/tic-tac-toe/'">View Project</button>
     </div>
 
-    <div class="card">
+    <!-- <div class="card">
       <h3>Portfolio Website</h3>
       <p>Responsive portfolio with modern UI & animation.</p>
       <button>View Project</button>
@@ -200,12 +219,12 @@
 </section>
 
 <section id="contact" class="section alt reveal">
-  <h2>Get In Touch (Demo)</h2>
+  <h2>Get In Touch</h2>
   <form id="contactForm">
     <input type="text" placeholder="Name" required />
     <input type="email" placeholder="Email" required />
     <textarea placeholder="Message" required></textarea>
-    <button type="submit">Send Message</button>
+    <button type="submit">Send Message (Demo :v)</button>
   </form>
 
   <div class="socials">
