@@ -9,30 +9,57 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  
+  <header class="navbar">
+    <div class="logo">ADTX <span class="brackets"><</span><span class="slash">/</span><span class="brackets">></span></div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <nav>
+      <a onclick="scrollToSection('about')">About</a>
+      <a onclick="scrollToSection('education')">Education</a>
+      <a onclick="scrollToSection('skills')">Skills</a>
+      <a onclick="scrollToSection('projects')">Projects</a>
+      <a onclick="scrollToSection('contact')">Contact</a>
+    </nav>
+  </header>
+  
+  
+  <section class="hero grid-bg">
 
-<header class="navbar">
-  <div class="logo">ADTX <span class="brackets"><</span><span class="slash">/</span><span class="brackets">></span></div>
-  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-  <nav>
-    <a onclick="scrollToSection('about')">About</a>
-    <a onclick="scrollToSection('education')">Education</a>
-    <a onclick="scrollToSection('skills')">Skills</a>
-    <a onclick="scrollToSection('projects')">Projects</a>
-    <a onclick="scrollToSection('contact')">Contact</a>
-  </nav>
-</header>
+  <div class="particles">
+    <span style="left:10%; animation-duration:6s"></span>
+    <span style="left:13%; animation-duration:4s"></span>
+    <span style="left:30%; animation-duration:8s"></span>
+    <span style="left:50%; animation-duration:5s"></span>
+    <span style="left:100%; animation-duration:9s"></span>
+    <span style="left:70%; animation-duration:7s"></span>
+    <span style="left:70%; animation-duration:7s"></span>
+    <span style="left:80%; animation-duration:4s"></span>
+    <span style="left:90%; animation-duration:9s"></span>
+  </div>
 
-<section class="hero reveal">
-  <h1>Hi, I'm <span>Aditia Pratama :)</span></h1>
-  <p>A first-year Computer Science student at <span>Sriwijaya University</span></p>
-  <div class="hero-btns">
+  <h1 class="reveal">Hi, I'm <span>Aditia Pratama :)</span></h1>
+  <p class="reveal">A first-year Computer Science student at <span>Sriwijaya University</span></p>
+  <div class="hero-btns reveal">
     <button onclick="scrollToSection('projects')">View My Projects</button>
     <button class="secondary" onclick="scrollToSection('contact')">Get In Touch</button>
   </div>
 </section>
 
-<section id="about" class="section alt reveal">
-  <h2>About Me</h2>
+<section id="about" class="section alt">
+
+    <div class="particles">
+    <span style="left:10%; animation-duration:6s"></span>
+    <span style="left:13%; animation-duration:4s"></span>
+    <span style="left:30%; animation-duration:8s"></span>
+    <span style="left:50%; animation-duration:5s"></span>
+    <span style="left:100%; animation-duration:9s"></span>
+    <span style="left:70%; animation-duration:7s"></span>
+    <span style="left:70%; animation-duration:7s"></span>
+    <span style="left:80%; animation-duration:4s"></span>
+    <span style="left:90%; animation-duration:9s"></span>
+  </div>
+
+  <h2 class="reveal">About Me</h2>
   <!-- <div class="about-me-desc">
     <p>I am an Informatics Engineering student with a deep interest in problem-solving. My journey in technology started in 2023 through competitive programming, 
       where I learned to tackle logical challenges in various national-level competitions and online contest. These experiences shaped the way I think about efficiency and structured code.</p>
@@ -41,7 +68,7 @@
       For me, web development is an exciting way to apply my algorithmic background to create something visual and useful for others.</p>
     
   </div> -->
-  <div class="desc-container">
+  <div class="desc-container reveal">
     <div class="desc-card">
           <p>
             I am an Informatics Engineering student with a deep interest in Web Developer.
@@ -56,9 +83,22 @@
   </div>
 </section>
 
-<section id="education" class="section reveal">
-  <h2>Education</h2>
-  <div class="timeline">
+<section id="education" class="section">
+
+  <div class="particles">
+    <span style="left:10%; animation-duration:6s"></span>
+    <span style="left:13%; animation-duration:4s"></span>
+    <span style="left:30%; animation-duration:8s"></span>
+    <span style="left:50%; animation-duration:5s"></span>
+    <span style="left:100%; animation-duration:9s"></span>
+    <span style="left:70%; animation-duration:7s"></span>
+    <span style="left:70%; animation-duration:7s"></span>
+    <span style="left:80%; animation-duration:4s"></span>
+    <span style="left:90%; animation-duration:9s"></span>
+  </div>
+
+  <h2 class="reveal">Education</h2>
+  <div class="timeline reveal">
     <div class="edu-card">
       <img src="assets/education/univ-logo.png" alt="UNSRI" class="edu-logo"/>
       <div class="univ">
@@ -100,8 +140,19 @@
 </section>
 
 <section id="skills" class="section alt reveal">
+  <div class="particles">
+    <span style="left:10%; animation-duration:6s"></span>
+    <span style="left:13%; animation-duration:4s"></span>
+    <span style="left:30%; animation-duration:8s"></span>
+    <span style="left:50%; animation-duration:5s"></span>
+    <span style="left:100%; animation-duration:9s"></span>
+    <span style="left:70%; animation-duration:7s"></span>
+    <span style="left:70%; animation-duration:7s"></span>
+    <span style="left:80%; animation-duration:4s"></span>
+    <span style="left:90%; animation-duration:9s"></span>
+  </div>
+
   <h2>Skills & Expertise</h2>
-  
   
   <!-- WEB DEV -->
   <h3 class="sub">Front-End Web Development</h3>
@@ -110,19 +161,19 @@
   <div class="skill">
     <p>HTML</p>
     <small>Semantic structure, accessibility basics</small>
-    <div class="bar"><div data-width="80%"></div></div>
+    <div class="bar"><div data-width="65%"></div></div>
   </div>
 
   <div class="skill">
     <p>CSS</p>
     <small>Layouting, responsive design, modern UI</small>
-    <div class="bar"><div data-width="75%"></div></div>
+    <div class="bar"><div data-width="55%"></div></div>
   </div>
 
   <div class="skill">
     <p>JavaScript</p>
     <small>DOM manipulation, interactivity, basic logic</small>
-    <div class="bar"><div data-width="70%"></div></div>
+    <div class="bar"><div data-width="50%"></div></div>
   </div>
 
 
@@ -144,7 +195,7 @@
   <div class="skill">
     <p>Python</p>
     <small>Scripting & problem solving</small>
-    <div class="bar"><div data-width="45%"></div></div>
+    <div class="bar"><div data-width="30%"></div></div>
   </div>
 
   <!-- CONCEPTS -->
@@ -153,7 +204,7 @@
   <div class="skill">
     <p>Object-Oriented Programming</p>
     <small>Encapsulation, inheritance, abstraction</small>
-    <div class="bar"><div data-width="75%"></div></div>
+    <div class="bar"><div data-width="80%"></div></div>
   </div>
 
   <!-- CP -->
@@ -196,6 +247,18 @@
 </section>
 
 <section id="projects" class="section reveal">
+  <div class="particles">
+    <span style="left:10%; animation-duration:6s"></span>
+    <span style="left:13%; animation-duration:4s"></span>
+    <span style="left:30%; animation-duration:8s"></span>
+    <span style="left:50%; animation-duration:5s"></span>
+    <span style="left:100%; animation-duration:9s"></span>
+    <span style="left:70%; animation-duration:7s"></span>
+    <span style="left:70%; animation-duration:7s"></span>
+    <span style="left:80%; animation-duration:4s"></span>
+    <span style="left:90%; animation-duration:9s"></span>
+  </div>
+
   <h2>Projects</h2>
   <div class="grid">
 
@@ -221,6 +284,18 @@
 </section>
 
 <section id="contact" class="section alt reveal">
+    <div class="particles">
+    <span style="left:10%; animation-duration:6s"></span>
+    <span style="left:13%; animation-duration:4s"></span>
+    <span style="left:30%; animation-duration:8s"></span>
+    <span style="left:50%; animation-duration:5s"></span>
+    <span style="left:100%; animation-duration:9s"></span>
+    <span style="left:70%; animation-duration:7s"></span>
+    <span style="left:70%; animation-duration:7s"></span>
+    <span style="left:80%; animation-duration:4s"></span>
+    <span style="left:90%; animation-duration:9s"></span>
+  </div>
+
   <h2>Get In Touch</h2>
   <form id="contactForm">
     <input type="text" placeholder="Name" required />
