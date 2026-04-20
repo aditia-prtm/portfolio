@@ -64,7 +64,7 @@ h2::selection{
   /* height: 60px; */
   color: #cbd5f5;
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.5s;
   cursor: pointer;
 }
 
@@ -100,6 +100,7 @@ h2::selection{
 
 .hero h1 {
   font-size: 4rem;
+  font-weight: 600;
 }
 
 
@@ -119,8 +120,9 @@ h2::selection{
 
 .hero h1::selection{
   background-color: #ff9f06;
-  color: #232425;
+  columns: #232425;
 }
+
 .hero span::selection{
   background-color: #ff9f06;
   color: #232425;
@@ -185,29 +187,6 @@ button.secondary {
 }
 
 
-/* ===== CARD ===== */
-.card {
-  padding: 35px;
-  border-radius: 25px;
-
-  background: #242527;
-
-  transition: 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-10px) scale(1.02);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
-}
-
-.card h3 {
-  margin-bottom: 10px;
-}
-
-.card button {
-  margin-top: 15px;
-}
-
 
 /* ===== ABOUT ME ====*/
 .desc-container{
@@ -230,7 +209,13 @@ button.secondary {
   font-size: 1.1rem;
   background: #232425;
 
-  transition: 300ms;
+  transition: 400ms;
+
+  cursor: pointer;
+}
+
+.desc-card:hover{
+  transform: translateY(-10px);
 }
 
 
@@ -322,7 +307,7 @@ button.secondary {
   height: 100%;
   width: 0;
   background: linear-gradient(45deg, #e0b183, #b6891e);
-  transition: 1s;
+  transition: 2s;
 }
 
 .sub {
@@ -347,6 +332,8 @@ button.secondary {
   border-radius: 20px;
   background: #232425;
   transition: 0.3s;
+
+  cursor: pointer;
 }
 
 .cp-card:hover {
@@ -371,11 +358,35 @@ button.secondary {
 }
 
 
+/* ===== PROJECT ===== */
+.project-card {
+  padding: 35px;
+  border-radius: 25px;
+
+  background: #242527;
+
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+}
+
+.project-card button {
+  margin-top: 15px;
+}
+
+
 
 /* ===== SOCIAL ===== */
 .socials {
   margin-top: 30px;
-
+  
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -390,17 +401,17 @@ button.secondary {
   justify-content: center;
 
   border-radius: 50%;
-  background: #111827;
+  background: #232428;
   
   text-decoration: none;
   color: white;
   
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .socials a:hover {
   transform: scale(1.1);
-  background: #232425;
+  background: #ff9f06;
 }
 
 .socials img{
@@ -462,9 +473,7 @@ footer {
   .navbar nav.active {
     display: flex;
   }
-}
 
-@media (max-width: 768px){
   .desc-container{
     flex-direction: column;
   }
