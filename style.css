@@ -32,7 +32,7 @@ h2::selection{
   
   padding: 20px 30px;
 
-  background: linear-gradient(180deg, #101010 0%, #151516 100%);
+  background: linear-gradient(180deg, #101010 0%, #15151674 100%);
 
   backdrop-filter: blur(10px);
 
@@ -496,7 +496,7 @@ footer {
     linear-gradient(rgba(0,255,255,0.05) 1px, transparent 1px),
     linear-gradient(90deg, rgba(0,255,255,0.05) 1px, transparent 1px);
   background-size: 40px 40px;
-  animation: gridMove 10s linear infinite;
+  animation: gridMove 2.5s linear infinite;
 }
 
 @keyframes gridMove {
