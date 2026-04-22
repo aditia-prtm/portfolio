@@ -4,10 +4,6 @@ function scrollToSection(id){
   });
 } 
 
-function toggleMenu(){
-  document.querySelector('.navbar nav').classList.toggle('active');
-}
-
 // SCROLL REVEAL + SKILL ANIMATION
 const reveals = document.querySelectorAll('.reveal');
 
@@ -41,16 +37,8 @@ window.addEventListener('scroll', () => {
 
 window.dispatchEvent(new Event('scroll'));
 
-document.getElementById('contactForm').addEventListener('submit', function (e) {
-  e.preventDefault();
-  alert('(Demo) Message sent!');
-  document.getElementById('name-input').value = "";
-  document.getElementById('email-input').value = "";
-  document.getElementById('msg-input').value = "";
-});
 
-
-// SMOOTH SCROLLING
+// // SMOOTH SCROLLING
 
 // let current = 0;
 // let target = 0;
