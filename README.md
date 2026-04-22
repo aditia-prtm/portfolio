@@ -15,14 +15,8 @@ This portfolio is built to:
 - Project showcase section
 - Simple and clean UI
 - Basic interactivity with JavaScript
-
 Then open "index.html" in your browser.
 
-## 📁 Project Structure
-├── index.html<br>
-├── style.css<br>
-├── script.js<br>
-└── assets/
 
 ## 🤝 Contributing
 
