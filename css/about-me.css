@@ -1,0 +1,35 @@
+/* ===== ABOUT ME ====*/
+.desc-container{
+  display: flex;
+  flex-direction: row;  
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.desc-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+
+  padding: 20px;
+  border-radius: 20px;
+
+  font-size: 1.1rem;
+  background: #232425;
+
+  transition: 400ms;
+
+  cursor: pointer;
+}
+
+.desc-card:hover{
+  transform: translateY(-10px);
+}
+
+@media (max-width: 768px) {
+  .desc-container{
+    flex-direction: column;
+  }
+}

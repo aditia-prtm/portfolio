@@ -1,0 +1,77 @@
+/* ===== SKILLS ===== */
+.skill {
+  margin: 25px 0;
+}
+
+.skill p {
+  font-weight: 500;
+}
+
+.skill small {
+  display: block;
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-bottom: 6px;
+}
+
+.bar {
+  width: 100%;
+  height: 12px;
+  background: #3f3f3f;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bar div {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(45deg, #e0b183, #b6891e);
+  transition: 2s;
+}
+
+.sub {
+  margin-top: 40px;
+}
+
+.desc {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  margin-bottom: 15px;
+}
+
+.cp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.cp-card {
+  padding: 25px;
+  border-radius: 20px;
+  background: #232425;
+  transition: 0.3s;
+
+  cursor: pointer;
+}
+
+.cp-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.cp-card h4 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #e2e8f0;
+}
+
+.cp-card ul{
+  margin-inline-start: 15px;
+}
+
+.cp-card ul li {
+  font-size: 0.95rem;
+  color: #bec8d5;
+  line-height: 1.6;
+}

@@ -1,0 +1,57 @@
+/* ===== EDUCATION ===== */
+.timeline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.edu-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+  padding: 25px;
+  border-radius: 20px;
+  
+  background: #232425;
+  
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.edu-card:hover{  
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.edu-card .univ h3{
+  color: rgb(255, 174, 0);
+}
+
+.edu-card .highSchool h3{
+  color: rgb(36, 139, 203);
+}
+
+.edu-card li{
+  list-style: square;
+  margin-left: 15px;
+}
+
+.edu-card li p{
+  color: white;
+}
+
+.edu-card .univ li{
+  color: rgb(255, 174, 0);
+}
+
+.edu-card .highSchool li{
+  color: rgb(36, 139, 203);
+}
+
+.edu-logo {
+  height: 40px;
+}

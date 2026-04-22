@@ -1,0 +1,35 @@
+
+/* ===== SOCIAL ===== */
+.socials {
+  margin-top: 30px;
+  
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.socials a {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background: #232428;
+  
+  text-decoration: none;
+  color: white;
+  
+  transition: 0.5s;
+}
+
+.socials a:hover {
+  transform: scale(1.1);
+  background: #ff9f06;
+}
+
+.socials img{
+  height: 30px;
+}

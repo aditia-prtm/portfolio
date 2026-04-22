@@ -1,0 +1,53 @@
+/* ===== HERO ===== */
+.hero {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 30px;
+  text-align: center;
+  gap: 30px;
+
+  background: url('assets/background/am-ZOgVHY0zl9o-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+
+}
+
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+
+.hero h1 span {
+  color: #ff9f06;
+}
+
+
+.hero p span{
+  color: rgb(255, 174, 0);
+}
+
+.hero-btns {
+  display: flex;
+  gap: 20px;
+}
+
+.hero h1::selection{
+  background-color: #ff9f06;
+  columns: #232425;
+}
+
+.hero span::selection{
+  background-color: #ff9f06;
+  color: #232425;
+}
+
+.hero p::selection{
+  background-color: #ff9f06;
+  color: #232425;
+}
