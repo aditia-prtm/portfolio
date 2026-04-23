@@ -1,3 +1,20 @@
+/* RESET */
+* {
+  /* border: 1px solid red; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  /* background: linear-gradient(180deg, #101010 0%, #151516 100%); */
+  /* background: linear-gradient(180deg, #020617 0%, #0f172a 100%); */
+  color: #e2e8f0;
+  background-color: #0c0c11;
+  overflow-x: hidden;
+}
+
 h2::selection{
   background-color: #ff9f06;
   color: #232425;
