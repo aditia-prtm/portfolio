@@ -3,6 +3,7 @@ function scrollToSection(id){
     behavior:'smooth'
   }); 
   document.querySelector('.navbar nav').classList.toggle('active', false);
+  document.querySelector('.menu-toggle').classList.toggle('menu-click', false);
 } 
 
 // SCROLL REVEAL + SKILL ANIMATION

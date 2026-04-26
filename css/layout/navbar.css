@@ -55,6 +55,10 @@
   cursor: pointer;
 }
 
+.menu-click{
+  color:rgb(255, 174, 0);
+}
+
 @media (max-width: 768px){
   .menu-toggle {
     display: block;
