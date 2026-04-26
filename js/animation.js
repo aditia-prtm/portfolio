@@ -1,7 +1,8 @@
 function scrollToSection(id){
   document.getElementById(id).scrollIntoView({
     behavior:'smooth'
-  });
+  }); 
+  document.querySelector('.navbar nav').classList.toggle('active', false);
 } 
 
 // SCROLL REVEAL + SKILL ANIMATION
