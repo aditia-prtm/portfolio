@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/components/hero.css">
   <link rel="stylesheet" href="css/components/about-me.css">
   <link rel="stylesheet" href="css/components/education.css">
+  <link rel="stylesheet" href="css/components/achiev.css">
   <link rel="stylesheet" href="css/components/skills.css">
   <link rel="stylesheet" href="css/components/projects.css">
   <link rel="stylesheet" href="css/components/social.css">
@@ -27,9 +28,9 @@
     <div class="menu-toggle" onclick="toggleMenu()">☰</div>
     <nav>
       <a onclick="scrollToSection('about')">About</a>
-      <a onclick="scrollToSection('education')">Education</a>
       <a onclick="scrollToSection('skills')">Skills</a>
       <a onclick="scrollToSection('projects')">Projects</a>
+      <a onclick="scrollToSection('cv')">CV</a>
       <a onclick="scrollToSection('contact')">Contact</a>
     </nav>
   </header>
@@ -50,7 +51,7 @@
   </div>
 
   <h1 class="reveal">Hello, I'm <span>Aditia Pratama</span></h1>
-  <p class="reveal">Informatics Engineering student at <span>Sriwijaya University</span></p>
+  <p class="reveal">Informatics Engineering student at <span>Sriwijaya University, </span> <span style="color:red">Indonesia</span></p>
   <div class="hero-btns reveal">
     <button onclick="scrollToSection('projects')">View My Projects</button>
     <button class="secondary" onclick="scrollToSection('contact')">Contact Me</button>
@@ -75,7 +76,7 @@
   <div class="desc-container reveal">
     <div class="desc-card">
           <p>
-            I am an Informatics Engineering student with a deep interest in Web Developer.
+            I am an Informatics Engineering student with a deep interest in Web Developer and Cyber Security.
           </p>
       </div>
         
@@ -87,7 +88,142 @@
   </div>
 </section>
 
-<section id="education" class="section">
+<section id="skills" class="section alt reveal">
+  <div class="particles">
+    <span style="left:10%; animation-duration:6s"></span>
+    <span style="left:13%; animation-duration:4s"></span>
+    <span style="left:30%; animation-duration:8s"></span>
+    <span style="left:50%; animation-duration:5s"></span>
+    <span style="left:100%; animation-duration:9s"></span>
+    <span style="left:70%; animation-duration:7s"></span>
+    <span style="left:70%; animation-duration:7s"></span>
+    <span style="left:80%; animation-duration:4s"></span>
+    <span style="left:90%; animation-duration:9s"></span>
+  </div>
+
+  <h2 class="reveal">Skills</h2>
+  
+  <!-- WEB DEV -->
+  <!-- <h3 class="sub reveal">Front-End Web Development</h3>
+  <p class="desc reveal">Focused on building responsive and interactive web interfaces using HTML, CSS, and JavaScript, with continuous improvement through hands-on projects.</p>
+  
+  <div class="skill reveal">
+    <p>HTML</p>
+    <small>Semantic structure, accessibility basics</small>
+    <div class="bar"><div data-width="65%"></div></div>
+  </div>
+
+  <div class="skill reveal">
+    <p>CSS</p>
+    <small>Layouting, responsive design, modern UI</small>
+    <div class="bar"><div data-width="55%"></div></div>
+  </div> -->
+  
+  
+  
+  <!-- LANGUAGES -->
+  <!-- <h3 class="sub reveal">Tech Stack</h3> -->
+  
+  <div class="skill-grid reveal">
+    <div class="skill-card">
+        <h4>Programming Languages</h4>
+        <ul>
+          <li>C / C++</li>
+          <li>Java</li>
+          <li>JavaScript (ES6+)</li>
+          <li>Python</li>
+        </ul>
+    </div>
+    <div class="skill-card">
+        <h4>Front End</h4>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Tailwind CSS</li>
+          <li>React.js</li>
+        </ul>
+    </div>
+    <div class="skill-card">
+        <h4>Tools</h4>
+        <ul>
+          <li>Git</li>
+          <li>Github</li>
+        </ul>
+    </div>
+
+  </div>
+
+  <!-- CP -->
+  <!-- <h3 class="sub reveal">Competitive Programming</h3>
+  <p class="desc reveal">
+    Strong foundation in algorithms and data structures with experience at National Olympiad in Informatics (OSN)
+  </p>
+
+  <div class="skill-grid reveal">
+
+    <div class="skill-card">
+      <h4>Problem Solving</h4>
+      <ul>
+        <li>Greedy Algorithms</li>
+        <li>Dynamic Programming</li>
+        <li>Binary Search</li>
+        <li>Divide and Conquer</li>
+      </ul>
+    </div>
+    
+    <div class="skill-card">
+      <h4>Algorithms</h4>
+      <ul>
+        <li>Sorting and Searching</li>
+        <li>Graph Algorithms (BFS, DFS, Shortest Path)</li>
+        <li>Tree Algorithms</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h4>Data Structures</h4>
+        <ul>
+          <li>Graph and Tree</li>
+          <li>Priority Queue (Heap)</li>
+          <li>Advanced Structure (Fenwick Tree, Segment Tree)</li>
+      </ul>
+    </div>
+
+  </div> -->
+</section>
+
+<section id="projects" class="section reveal">
+  <div class="particles">
+    <span style="left:10%; animation-duration:6s"></span>
+    <span style="left:13%; animation-duration:4s"></span>
+    <span style="left:30%; animation-duration:8s"></span>
+    <span style="left:50%; animation-duration:5s"></span>
+    <span style="left:100%; animation-duration:9s"></span>
+    <span style="left:70%; animation-duration:7s"></span>
+    <span style="left:70%; animation-duration:7s"></span>
+    <span style="left:80%; animation-duration:4s"></span>
+    <span style="left:90%; animation-duration:9s"></span>
+  </div>
+
+  <h2 class="reveal">Projects</h2>
+  <div class="grid reveal">
+    
+    <div class="project-card">
+      <h3>Byte2Bites</h3>
+      <p>Food order system with Java Graphical User Interface (GUI).</p>
+      <button onclick="window.location.href='https://github.com/aditia-prtm/Byte2Bites'">View Project</button>
+    </div>
+    
+    <div class="project-card">
+      <h3>Tic-Tac-Toe</h3>
+      <p>Play against an “AI” whose moves are based on random numbers (Randomized Logic).</p>
+      <button onclick="window.location.href='https://aditia-prtm.github.io/tic-tac-toe/'">View Project</button>
+    </div>
+    
+  </div>
+</section>
+
+<section id="cv" class="section">
 
   <div class="particles">
     <span style="left:10%; animation-duration:6s"></span>
@@ -138,145 +274,29 @@
     </div>
 
   </div>
-</section>
 
-<section id="skills" class="section alt reveal">
-  <div class="particles">
-    <span style="left:10%; animation-duration:6s"></span>
-    <span style="left:13%; animation-duration:4s"></span>
-    <span style="left:30%; animation-duration:8s"></span>
-    <span style="left:50%; animation-duration:5s"></span>
-    <span style="left:100%; animation-duration:9s"></span>
-    <span style="left:70%; animation-duration:7s"></span>
-    <span style="left:70%; animation-duration:7s"></span>
-    <span style="left:80%; animation-duration:4s"></span>
-    <span style="left:90%; animation-duration:9s"></span>
-  </div>
-
-  <h2 class="reveal">Skills</h2>
-  
-  <!-- WEB DEV -->
-  <!-- <h3 class="sub reveal">Front-End Web Development</h3>
-  <p class="desc reveal">Focused on building responsive and interactive web interfaces using HTML, CSS, and JavaScript, with continuous improvement through hands-on projects.</p>
-  
-  <div class="skill reveal">
-    <p>HTML</p>
-    <small>Semantic structure, accessibility basics</small>
-    <div class="bar"><div data-width="65%"></div></div>
-  </div>
-
-  <div class="skill reveal">
-    <p>CSS</p>
-    <small>Layouting, responsive design, modern UI</small>
-    <div class="bar"><div data-width="55%"></div></div>
-  </div> -->
-
-  
-  
-  <!-- LANGUAGES -->
-  <h3 class="sub reveal">Tech Stack</h3>
-  
-  <div class="skill-grid reveal">
-    <div class="skill-card">
-        <h4>Programming Languages</h4>
-        <ul>
-          <li>C++</li>
-          <li>Java</li>
-          <li>JavaScript (ES6+)</li>
-          <li>Python</li>
-        </ul>
+  <h2 class="reveal">Achievements</h2>
+  <div class="achiev-grid reveal">
+    <div class="achiev-card">
+      <h4>SRIFOTON 2025</h4>
+      <p>Juara 2 - Competitive Programming Sriwijaya Informatics Exhibition 2025</p>
+      <button onclick="window.location.href='https://drive.google.com/file/d/1BV9IRIxAtNy7e4DiybpvQHliX1r8cgVi/view?usp=drive_link'">View Certificate</button>
     </div>
-    <div class="skill-card">
-        <h4>Front End</h4>
-        <ul>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>Tailwind CSS</li>
-          <li>React.js</li>
-        </ul>
+    <div class="achiev-card">
+      <h4>OSN Informatika 2024</h4>
+      <p>Peringkat 7 - OSN Informatika Provinsi Sumatera Selatan 2024</p>
+      <button onclick="window.location.href='https://drive.google.com/file/d/1CKg280kjZB-Ii_rnIl6hToAhinaUUBNa/view?usp=drive_link'">View Certificate</button>
     </div>
-    <div class="skill-card">
-        <h4>Tools</h4>
-        <ul>
-          <li>Git</li>
-          <li>Github</li>
-        </ul>
+    <div class="achiev-card">
+      <h4>Code League 2025</h4>
+      <p>Juara 3 - Code League Teknik Informatika UNSRI 2025</p>
+      <button onclick="">View Certificate</button>
     </div>
-
-  </div>
-
-  <!-- CP -->
-  <h3 class="sub reveal">Competitive Programming</h3>
-  <p class="desc reveal">
-    Strong foundation in algorithms and data structures with experience at National Olympiad in Informatics (OSN)
-  </p>
-
-  <div class="skill-grid reveal">
-
-    <div class="skill-card">
-      <h4>Problem Solving</h4>
-      <ul>
-        <li>Greedy Algorithms</li>
-        <li>Dynamic Programming</li>
-        <li>Binary Search</li>
-        <li>Divide and Conquer</li>
-      </ul>
-    </div>
-
-    <div class="skill-card">
-      <h4>Algorithms</h4>
-      <ul>
-        <li>Sorting and Searching</li>
-        <li>Graph Algorithms (BFS, DFS, Shortest Path)</li>
-        <li>Tree Algorithms</li>
-      </ul>
-    </div>
-
-    <div class="skill-card">
-      <h4>Data Structures</h4>
-        <ul>
-          <li>Graph and Tree</li>
-          <li>Priority Queue (Heap)</li>
-          <li>Advanced Structure (Fenwick Tree, Segment Tree)</li>
-      </ul>
-    </div>
-
-  </div>
-</section>
-
-<section id="projects" class="section reveal">
-  <div class="particles">
-    <span style="left:10%; animation-duration:6s"></span>
-    <span style="left:13%; animation-duration:4s"></span>
-    <span style="left:30%; animation-duration:8s"></span>
-    <span style="left:50%; animation-duration:5s"></span>
-    <span style="left:100%; animation-duration:9s"></span>
-    <span style="left:70%; animation-duration:7s"></span>
-    <span style="left:70%; animation-duration:7s"></span>
-    <span style="left:80%; animation-duration:4s"></span>
-    <span style="left:90%; animation-duration:9s"></span>
-  </div>
-
-  <h2 class="reveal">Projects</h2>
-  <div class="grid reveal">
-    
-    <div class="project-card">
-      <h3>Byte2Bites</h3>
-      <p>Food order system with Java Graphical User Interface (GUI).</p>
-      <button onclick="window.location.href='https://github.com/aditia-prtm/Byte2Bites'">View Project</button>
-    </div>
-    
-    <div class="project-card">
-      <h3>Tic-Tac-Toe</h3>
-      <p>Play against an “AI” whose moves are based on random numbers (Randomized Logic).</p>
-      <button onclick="window.location.href='https://aditia-prtm.github.io/tic-tac-toe/'">View Project</button>
-    </div>
-    
   </div>
 </section>
 
 <section id="contact" class="section alt">
-
+  
   <h2 class="reveal">Send Message</h2>
   <form class="reveal" id="contactForm">
     <input id="name-input" type="text" placeholder="Name" required />
