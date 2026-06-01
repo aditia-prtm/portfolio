@@ -23,7 +23,7 @@
 <body>
   
   <header class="navbar">
-    <div class="logo">ADTX <span class="brackets"><</span><span class="slash">/</span><span class="brackets">></span></div>
+    <div class="logo" onclick="scrollToSection('hero')">ADTX <span class="brackets"><</span><span class="slash">/</span><span class="brackets">></span></div>
     <div class="menu-toggle" onclick="toggleMenu()">☰</div>
     <nav>
       <a onclick="scrollToSection('about')">About</a>
@@ -49,8 +49,8 @@
     <span style="left:90%; animation-duration:9s"></span>
   </div>
 
-  <h1 class="reveal">Hi, I'm <span>Aditia Pratama</span></h1>
-  <p class="reveal">A first-year Informatics Engineering student at <span>Sriwijaya University</span></p>
+  <h1 class="reveal">Hello, I'm <span>Aditia Pratama</span></h1>
+  <p class="reveal">Informatics Engineering student at <span>Sriwijaya University</span></p>
   <div class="hero-btns reveal">
     <button onclick="scrollToSection('projects')">View My Projects</button>
     <button class="secondary" onclick="scrollToSection('contact')">Contact Me</button>
@@ -115,9 +115,6 @@
           <li>
             <p>2025 - now</p>
           </li>
-          <li>
-            <p>GPA: 4.00/4.00</p>
-          </li>
         </ul>
       </div>
     </div>
@@ -177,39 +174,35 @@
   
   
   <!-- LANGUAGES -->
-  <h3 class="sub reveal">Programming Languages</h3>
+  <h3 class="sub reveal">Tech Stack</h3>
   
-  <div class="skill reveal">
-    <p>C++</p>
-    <small>Main language for competitive programming</small>
-    <div class="bar"><div data-width="75%"></div></div>
-  </div>
-  
-  <div class="skill reveal">
-    <p>Java</p>
-    <small>OOP-based programming & basic applications</small>
-    <div class="bar"><div data-width="70%"></div></div>
-  </div>
+  <div class="skill-grid reveal">
+    <div class="skill-card">
+        <h4>Programming Languages</h4>
+        <ul>
+          <li>C++</li>
+          <li>Java</li>
+          <li>JavaScript (ES6+)</li>
+          <li>Python</li>
+        </ul>
+    </div>
+    <div class="skill-card">
+        <h4>Front End</h4>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Tailwind CSS</li>
+          <li>React.js</li>
+        </ul>
+    </div>
+    <div class="skill-card">
+        <h4>Tools</h4>
+        <ul>
+          <li>Git</li>
+          <li>Github</li>
+        </ul>
+    </div>
 
-  <div class="skill reveal">
-    <p>JavaScript</p>
-    <small>DOM manipulation, interactivity, basic logic</small>
-    <div class="bar"><div data-width="50%"></div></div>
-  </div>
-  
-  <div class="skill reveal">
-    <p>Python</p>
-    <small>Scripting & problem solving</small>
-    <div class="bar"><div data-width="30%"></div></div>
-  </div>
-
-  <!-- CONCEPTS -->
-  <h3 class="sub reveal">Computer Science Concepts</h3>
-  
-  <div class="skill reveal">
-    <p>Object-Oriented Programming</p>
-    <small>Encapsulation, inheritance, abstraction</small>
-    <div class="bar"><div data-width="80%"></div></div>
   </div>
 
   <!-- CP -->
@@ -218,9 +211,9 @@
     Strong foundation in algorithms and data structures with experience at National Olympiad in Informatics (OSN)
   </p>
 
-  <div class="cp-grid reveal">
+  <div class="skill-grid reveal">
 
-    <div class="cp-card">
+    <div class="skill-card">
       <h4>Problem Solving</h4>
       <ul>
         <li>Greedy Algorithms</li>
@@ -230,7 +223,7 @@
       </ul>
     </div>
 
-    <div class="cp-card">
+    <div class="skill-card">
       <h4>Algorithms</h4>
       <ul>
         <li>Sorting and Searching</li>
@@ -239,7 +232,7 @@
       </ul>
     </div>
 
-    <div class="cp-card">
+    <div class="skill-card">
       <h4>Data Structures</h4>
         <ul>
           <li>Graph and Tree</li>
