@@ -78,6 +78,10 @@ button.secondary {
   cursor: pointer;
 }
 
+.card h4{
+  color: #ff9f06;
+}
+
 .card button{
   margin-top: 30px;
 }
